@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #2ac5a9;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #2ac5a9;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #2ac5a9;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .about-section,
+  .features-section,
+  .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-item h3 {
+    color: #2ac5a9;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
